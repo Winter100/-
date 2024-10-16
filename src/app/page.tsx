@@ -60,6 +60,7 @@ export default function Home() {
     };
     const time = date.toLocaleTimeString('ko-KR', options);
     setIsRefresh(time);
+    setUser(getAllUser());
   };
 
   const handleSort = (
